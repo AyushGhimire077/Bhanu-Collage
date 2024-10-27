@@ -115,8 +115,8 @@ const ContactPage = () => {
           </form>
           <p className='mt-6'>
             By contacting us, you agree to our{' '}
-            <button>Privacy Policy.</button>
-            <button>Terms of service</button> and{' '}
+            <b className='font-normal text-red-400'>Privacy Policy.</b>
+            <b className='font-normal text-red-400'>Terms of service</b> and{' '}
           </p>
         </div>
       </div>
