@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Contact from './pages/Contact/Contact'
 import Courses from './pages/Cources/Courses'
 import AboutUs from './pages/AboutUs/AboutUs'
-import Home from './pages/HomePage/Home'
+import Index from './pages/HomePage/Home'
 import NewsAndEvents from './pages/NewsEvent/NewsEvent'
 import Top from './components/Top/Top'
 import Testimonials from './pages/Testimonials/Testimonials'
@@ -19,7 +19,7 @@ const App = () => {
     <Top/>
     <Navbar/>
        <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Index />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/news-events" element={<NewsAndEvents />} />
           <Route path="/about-us" element={<AboutUs />} />
