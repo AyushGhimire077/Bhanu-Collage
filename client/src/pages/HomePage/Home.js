@@ -13,7 +13,7 @@ const Home = () => {
       nextSlide();
     }, 3000); 
     return () => clearInterval(interval);
-  }, []);
+  }, [nextSlide]);
 
   const nextSlide = () => {
     if (currentIndex === images.length) {

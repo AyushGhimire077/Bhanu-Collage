@@ -29,7 +29,7 @@ const Navbar = () => {
                 transform: `translateX(${offsetLeft}px)`,
             });
         }
-    }, [location.pathname]);
+    }, [location.pathname, links]);
 
     useEffect(() => {
         const handleResize = () => {
