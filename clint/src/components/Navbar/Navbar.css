@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.nav-com {
+    position: relative;
+}
+
+.nav-com ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+
+.nav-com ul li {
+    position: relative;
+}
+
+.nav-com ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+}
+
+.nav-com ul li a.active {
+    color: tomato;
+}
+
+.nav-com ul li a:hover {
+    color: #007bff;
+}
+
+.underline {
+    position: absolute;
+    height: 1.9px;
+    background-color: black;
+    bottom: -5px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    width: 0;
+}
+
+.menu-button {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.menu-button:hover {
+    color: tomato;
+}
+
+.menu-button:focus {
+    outline: none;
+}
+
+@media (max-width: 1199px) {
+    .nav-com .underline {
+        display: none;
+    }
+    .menu-button {
+        display: inline-block;
+        font-size: 30px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .nav-com ul {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 250px;
+        background-color: #fff;
+        flex-direction: column;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-20px);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .nav-com ul.open {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-com ul li {
+        margin: 0;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+    }
+
+    .nav-com ul li:hover {
+        background-color: #f0f0f0;
+    }
+
+    .nav-com ul li a {
+        color: #333;
+        font-weight: 500;
+        display: block;
+    }
+    .sign-up {
+        margin-right: 20px;
+    }
+}

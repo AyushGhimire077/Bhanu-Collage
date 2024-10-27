@@ -1,0 +1,213 @@
+/* General styling for the page */
+.contact-page {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Wrapper for the two main sections to allow alignment */
+.location-and-contact {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Location Section Styling */
+.location-section {
+    flex: 1;
+    background: transparent;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.location-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.location-section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.location-section h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+.location-section p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.location-section iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+}
+
+.contact-form {
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form button {
+    background-color: tomato;
+    color: white;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: rgb(250, 75, 44);
+}
+
+.contact-form a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.contact-form a:hover {
+    text-decoration: underline;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .popup-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .popup-content button:hover {
+    background-color: #a44a00;
+  }
+  
+  
+  .popup-content button:hover {
+    background-color: #a44a00; 
+  }
+  
+  
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .location-and-contact {
+        flex-direction: column; 
+        gap: 2rem;
+    }
+
+    .location-section,
+    .contact-form {
+        width: 100%; 
+    }
+}
