@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Bhanu-Collage/static/css/main.bc56437b.css",
+    "main.js": "/Bhanu-Collage/static/js/main.3b653939.js",
+    "static/js/453.419a5d54.chunk.js": "/Bhanu-Collage/static/js/453.419a5d54.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Bhanu-Collage/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/pro-3.jpg": "/Bhanu-Collage/static/media/pro-3.cda0e6bed4c44535a789.jpg",
+    "static/media/pro-4.jpg": "/Bhanu-Collage/static/media/pro-4.747cf60b0f2c939dd34f.jpg",
+    "static/media/fontawesome-webfont.eot": "/Bhanu-Collage/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Bhanu-Collage/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/pro-2.jpg": "/Bhanu-Collage/static/media/pro-2.d188089b0be65ce6345a.jpg",
+    "static/media/pro-5.jpg": "/Bhanu-Collage/static/media/pro-5.e001327a7585e038b61d.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Bhanu-Collage/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Bhanu-Collage/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/pro-1.jpg": "/Bhanu-Collage/static/media/pro-1.4784cf6dec7d21acbbef.jpg",
+    "static/media/logo2-removebg-preview.png": "/Bhanu-Collage/static/media/logo2-removebg-preview.bcaa588cdd1475d6c3fd.png",
+    "index.html": "/Bhanu-Collage/index.html",
+    "main.bc56437b.css.map": "/Bhanu-Collage/static/css/main.bc56437b.css.map",
+    "main.3b653939.js.map": "/Bhanu-Collage/static/js/main.3b653939.js.map",
+    "453.419a5d54.chunk.js.map": "/Bhanu-Collage/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc56437b.css",
+    "static/js/main.3b653939.js"
+  ]
+}
