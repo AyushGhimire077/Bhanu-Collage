@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bhanu-Collage/static/css/main.bc56437b.css",
-    "main.js": "/Bhanu-Collage/static/js/main.3056c6bc.js",
+    "main.js": "/Bhanu-Collage/static/js/main.f8c706ef.js",
     "static/js/453.419a5d54.chunk.js": "/Bhanu-Collage/static/js/453.419a5d54.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Bhanu-Collage/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/pro-3.jpg": "/Bhanu-Collage/static/media/pro-3.cda0e6bed4c44535a789.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo2-removebg-preview.png": "/Bhanu-Collage/static/media/logo2-removebg-preview.bcaa588cdd1475d6c3fd.png",
     "index.html": "/Bhanu-Collage/index.html",
     "main.bc56437b.css.map": "/Bhanu-Collage/static/css/main.bc56437b.css.map",
-    "main.3056c6bc.js.map": "/Bhanu-Collage/static/js/main.3056c6bc.js.map",
+    "main.f8c706ef.js.map": "/Bhanu-Collage/static/js/main.f8c706ef.js.map",
     "453.419a5d54.chunk.js.map": "/Bhanu-Collage/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc56437b.css",
-    "static/js/main.3056c6bc.js"
+    "static/js/main.f8c706ef.js"
   ]
 }
