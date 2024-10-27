@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Follow Us</h4>
             <div className="social-links">
-              <a> <i className="fa fa-facebook-f"></i></a>
-              <a> <i className="fa fa-linkedin"></i></a>
-              <a> <i className="fa fa-twitter"></i></a>
-              <a> <i className="fa fa-instagram"></i></a>
+               <i className="fa fa-linkedin"></i>
+               <i className="fa fa-twitter"></i>
+               <i className="fa fa-instagram"></i>
+               <i className="fa fa-facebook-f"></i>
             </div>
           </div>
           <div className="footer-col">

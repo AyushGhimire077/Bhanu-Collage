@@ -58,7 +58,7 @@ const ContactPage = () => {
           <h4>Bhanu College</h4>
           <p>College Road, Biratnagar</p>
           <p>Morang, Nepal</p>
-          <iframe
+          <iframe title='location'
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d340.1247909295514!2d87.2782539!3d26.4498482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef75b6be3fb3d1%3A0x100d3c6fcc25708b!2z4KSt4KS-4KSo4KWBIOCkleCksuClh-CknCwg4KS14KS_4KSw4KS-4KSf4KSo4KSX4KSw!5e1!3m2!1sen!2snp!4v1729936006663!5m2!1sen!2snp"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -115,8 +115,8 @@ const ContactPage = () => {
           </form>
           <p className='mt-6'>
             By contacting us, you agree to our{' '}
-            <a>Privacy Policy</a>.
-            <a>Terms of service</a> and{' '}
+            <button>Privacy Policy.</button>
+            <button>Terms of service</button> and{' '}
           </p>
         </div>
       </div>

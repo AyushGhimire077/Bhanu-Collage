@@ -4,7 +4,6 @@ import { logo } from '../../assets/assets';
 import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
     const [underlineStyle, setUnderlineStyle] = useState({});
     const [menuOpen, setMenuOpen] = useState(false);
     const [showMenuButton, setShowMenuButton] = useState(false);
@@ -23,8 +22,6 @@ const Navbar = () => {
 
     useEffect(() => {
         const activeLinkIndex = links.findIndex(link => link.path === location.pathname);
-        setActiveIndex(activeLinkIndex);
-
         if (linksRef.current[activeLinkIndex]) {
             const { offsetLeft, offsetWidth } = linksRef.current[activeLinkIndex];
             setUnderlineStyle({
@@ -79,7 +76,6 @@ const Navbar = () => {
                                     to={link.path}
                                     className={({ isActive }) => (isActive ? 'active' : '')}
                                     onClick={() => {
-                                        setActiveIndex(index);
                                         setMenuOpen(false); // Close menu on click
                                     }}
                                 >
