@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'; 
+import React, { useState, useEffect, useRef, useMemo } from 'react'; 
 import './Navbar.css';
 import { logo } from '../../assets/assets';
 import { NavLink, useLocation } from 'react-router-dom';
@@ -9,14 +9,14 @@ const Navbar = () => {
     const [showMenuButton, setShowMenuButton] = useState(false);
     const linksRef = useRef([]);
 
-    const links = [
+    const links =  useMemo(()=>[
         { path: '/', name: 'Home' },
         { path: '/courses', name: 'Courses' },
         { path: '/news-events', name: 'News & Events' },
         { path: '/about-us', name: 'About Us' },
         { path: '/contact', name: 'Contact' },
         { path: '/testimonial', name: 'Testimonials' }
-    ];
+    ],[]);;
 
     const location = useLocation();
 
