@@ -13,26 +13,26 @@ const Footer = () => {
             <h4 className="caret-black">Bhanu Collage -Biratnagar</h4>
             <ul>
               <li><Link to='/about-us'>About Us</Link></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Blog</a></li>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>Press</li>
             </ul>
           </div>
           <div className="footer-col">
             <h4>Help</h4>
             <ul>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li>Support</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
             </ul>
           </div>
           <div className="footer-col">
             <h4>Follow Us</h4>
             <div className="social-links">
-              <a href="#"><i className="fa fa-facebook-f"></i></a>
-              <a href="#"><i className="fa fa-twitter"></i></a>
-              <a href="#"><i className="fa fa-instagram"></i></a>
-              <a href="#"><i className="fa fa-linkedin"></i></a>
+              <a> <i className="fa fa-facebook-f"></i></a>
+              <a> <i className="fa fa-linkedin"></i></a>
+              <a> <i className="fa fa-twitter"></i></a>
+              <a> <i className="fa fa-instagram"></i></a>
             </div>
           </div>
           <div className="footer-col">
